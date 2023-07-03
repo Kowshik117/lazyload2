@@ -1,0 +1,13 @@
+img {
+  display: block;
+  margin:20px;
+  width: 800;
+  height: 800;
+  object-fit: cover;
+}
+.container{
+  margin-left: 40px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}

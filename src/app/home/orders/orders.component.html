@@ -1,0 +1,15 @@
+<div class="addtocart">
+  <button (click)="goToCart()">Cart Items</button>
+  <button (click)="goToSmile()">Smile</button>
+</div>
+<div  class="container">
+
+  <div *ngFor= 'let element of data' class="cover">
+    <img [src]="element?.cover" alt="" />
+    <div>
+      <button class="btn btn-dark" (click)="goToView(element.id)">View</button>
+  <button class="btn btn-dark" (click)="addToCart(element)"> AddToCart</button>
+    </div>
+  </div>
+</div>
+
